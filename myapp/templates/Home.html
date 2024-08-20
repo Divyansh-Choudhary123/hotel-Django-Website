@@ -1,0 +1,151 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/Home.css' %}">
+</head>
+<body>
+   <div class="hedder-img">
+    <img src="{% static 'img/1.jpg' %}" alt="">
+    <div class="logo">
+        <img src="{% static 'img/logo.jpg' %}" alt="">
+    </div>
+    <div class="black-form">
+      <form action="loginData" method="post">
+        {% csrf_token %}
+        <label for="">* Name</label><br>
+        <input type="text" name="name"><br><br>
+        <label for="">* Mobile</label><br>
+        <input type="integer" name="mobile"><br><br>
+        <label for="">* Email</label><br>
+        <input type="email" name="email"><br><br><br>
+        <button type="Submit" value="Submit">Send Massage</button>
+      </form>
+    </div>
+    <div class="black-form1">
+<h1>Grab our exclusive offer!</h1>
+<p>Stay at our luxury suites with spacious bedrooms and living and dining areas. Enjoy our many dining offerings including Murphy's, Bangalore's first Irish microbrewery!</p>
+    </div>
+   </div>
+   <form action="calanderData" method="post">
+    {% csrf_token %}
+   <div class="black">
+    <input type="date" name="calander" value="">
+
+    <!-- <div class="dropdown">
+  <select name="dropdown" id="">
+    <option value="">1 Adult, 0 Child, 1 Room</option>
+    <option value="">1 Adult</option>
+    <option value="">0 Child</option>
+    <option value="">1 Room</option>
+  </select>
+  </div> -->
+  <button type="Submit" value="Submit">Book Now</button>
+  <button>Manage Reservations</button>
+   </div>
+  </form>
+   <div class="Discover">
+    <h1>DISCOVER LUXURY LIVING IN THE HEART OF SAHARANPUR</h1>
+    <p>The place to unwind. With all the space to relax, refresh, and be pampered. Carefully conceived and designed to offer unlimited luxury to the discerning traveler, The Paul Saharanpur with its 57 suites is a Luxury Business Hotel in Saharanpur  that invites you to relish luxury of a different kind. Creating higher heights of comfort and redefining new meanings to luxury, this hotel dedicates its efforts to maintaining world-class standards while constantly providing personal service without intruding on privacy. Strategically located in the heart of Saharanpur , India's IT hub, and bespeaking absolute comfort in a luxuriously spacious environment, The Paul Saharanpur  presents to you an ambience that assures fond memories of a memorable stay - the perfect choice for family getaways.</p>
+   </div>
+   <div class="facilities">
+    <h1>TOP FACILITIES</h1>
+    <div class="facilities-cards">
+        <div class="facilities-card">
+            <img src="{% static 'img/1.jpg' %}" alt="">
+            <h2>BUSINESS CENTER</h2>
+            <p>The Business Center at The Paul Saharanpur offers comprehensive personal and business services with a well facilitated.</p>
+        </div>
+        <div class="facilities-card">
+             <img src="{% static 'img/a.jpg' %}" alt="">
+             <h2>CONFERENCE HALL</h2>
+             <p>Luxuriously fresh and spacious, the 2400 sqft conference hall set high on the roof-top seats over 200 persons in theater and banquet styles. The conference hall can be split into 2 for the many requirements that require lesser space.</p>
+        </div>
+        <div class="facilities-card">
+            <img src="{% static 'img/c.jpg' %}" alt="">
+            <h2>SIDEWALK CAFE & BAR</h2>
+            <p>Nestled in the hotel's atrium, The Sidewalk Café & Bar offers a delightful international breakfast buffet. Cozy and cool, with an à la carte menu featuring Italian, American, and Pan Asian favorites, The Sidewalk Café invites you to unwind and enjoy the world passing by.</p>
+        </div>
+    </div>
+    <div class="facilities-cards1">
+      <div class="facilities-card">
+          <img src="{% static 'img/5.jpg' %}" alt="">
+          <h2>SWIMMING POOL WITH JACUZZI</h2>
+          <p>Take a refreshing dip in the swimming pool with Jacuzzi, and let the waters lap soothingly around you.</p>
+      </div>
+      <div class="facilities-card">
+           <img src="{% static 'img/6.jpg' %}" alt="">
+           <h2>TONEZ</h2>
+           <p>The hotel's modern gym with its array of the latest of sophisticated training equipment is the perfect place to pump up the adrenalin at the start of the day.</p>
+      </div>
+  </div>
+  <button>View Other Facilities </button>
+   </div>
+   <div class="Vembanad">
+    <div class="Vembanad-card">
+      <img src="{% static 'img/vembanad.jpg' %}" alt="">
+    </div>
+    <div class="Vembanad-card1">
+      <h1>VEMBANAD</h1>
+      <p>This multi award-winning restaurant invites you to savor a cuisine as exclusive as an ethnicity and loved irrespective of boundaries. At Vembanad we bring to you the renowned flavors of Kerala and from the wide and varied coasts of India. Treat yourself to an exotic culinary voyage amidst a glorious ambience of luxurious heritage at its finest.</p>
+    </div>
+   </div>
+   <div class="cards">
+    <h1>THE PAUL SAHARANPUR - FIVE STAR HOTEL IN SAHARANPUR</h1>
+    <h3>Experience the beauty of The Paul Bangalore and start planning your trip.</h3>
+    <div class="cards1">
+      <div class="card12">
+        <img src="{% static 'img/1.jpg' %}" alt="">
+        <img src="{% static 'img/5.jpg' %}" alt="">
+        <img src="{% static 'img/6.jpg' %}" alt="">
+        <img src="{% static 'img/a.jpg' %}" alt="">
+      </div>
+      <div class="card12">
+        <img src="{% static 'img/b.jpg' %}" alt="">
+        <img src="{% static 'img/bed.jpg' %}" alt="">
+        <img src="{% static 'img/c.jpg' %}" alt="">
+        <img src="{% static 'img/food.jpg' %}" alt="">
+      </div>
+      <div class="card12">
+        <img src="{% static 'img/vembanad.jpg' %}" alt="">
+        <img src="{% static 'img/m.jpg' %}" alt="">
+        <img src="{% static 'img/n.jpg' %}" alt="">
+        <img src="{% static 'img/v.jpg' %}" alt="">
+      </div>
+      <div class="card12">
+        <img src="{% static 'img/x.jpg' %}" alt="">
+        <img src="{% static 'img/z.jpg' %}" alt="">
+        <img src="{% static 'img/1.jpg' %}" alt="">
+        <img src="{% static 'img/5.jpg' %}" alt="">
+      </div>
+    </div>
+   </div>
+   <div class="banar">
+    <!-- <img src="{% static 'img/1.jpg' %}" alt=""> -->
+    <div class="banar1">
+     <div class="banar1-text">
+      <h1>HAPPY TO CONNECT WITH YOU!</h1>
+      <h5>Please submit the form. We will get in touch.</h5>
+      
+     </div>
+     <div class="banar1-form">
+        <form action="">
+          <label for="">* Name</label><br>
+          <input type="text" name="name1"><br><br>
+          <label for="">* Mobile</label><br>
+          <input type="text" name="mobile1"><br><br>
+          <label for="">* Email</label><br>
+          <input type="text" name="email1"><br><br><br>
+          <button type="Submit" value="Submit">Send Massage</button>
+        </form>
+     </div>
+    </div>
+    <div class="end">
+      <h2>©2024 The Paul Saharanpur, India. All rights reserved.</h2>
+    </div>
+</div>
+</body>
+</html>

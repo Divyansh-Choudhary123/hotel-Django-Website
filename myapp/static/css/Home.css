@@ -1,0 +1,1111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.hedder-img img{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.logo img{
+    position: absolute;
+    top: 20px;
+    margin-left: 20px;
+    width: 150px;
+    height: 150px;
+    opacity: 0.60;
+}
+.black-form{
+    width: 450px;
+    height: 400px;
+    background-color: black;
+    position: absolute;
+    top: 230px;
+    margin-left: 830px;
+   opacity: 0.74;
+}
+.black-form form{
+   width: 400px;
+    height: 340px;
+    margin-top: 30px;
+    margin-left: 30px;
+    /* border: 1px solid red; */
+}
+.black-form label{
+font-size: 24px;
+color: white;
+}
+.black-form form input{
+    width: 380px;
+    height: 35px;
+    background-color:  white;
+    opacity: 4;
+    margin-top: 5px;
+    border: 1.5px solid white;
+}
+.inner-form{
+    display: flex;
+    width: 200px;
+    height: 35px;
+    margin-top: 5px;
+    border: 1.5px solid white;
+    
+}
+.black-form button{
+    width: 150px;
+    height: 50px;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    margin-left: 200px;
+    background-color: rgb(104, 22, 22);
+}
+
+.black-form1{
+    width: 770px;
+    height: 150px;
+    background-color: black;
+    position: absolute;
+    top: 480px;
+    margin-left: 20px;
+    border-radius: 20px;
+   opacity: 0.74;
+}
+.black-form1 h1{
+    margin-top: 20px;
+    text-align: center;
+    color: orangered;
+    font-size: 35px;
+    font-weight: 100;
+    font-family:sans-serif;
+}
+.black-form1 p{
+    margin-top: 10px;
+    color: white;
+    font-size: 21px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+@media(max-width:768px){
+    .hedder-img img{
+        width: 100%;
+        height: 100vh;
+        position: relative;
+    }
+    .logo img{
+        position: absolute;
+        top: 10px;
+        margin-left: 10px;
+        width: 100px;
+        height: 70px;
+        opacity: 0.60;
+    }
+    .black-form{
+        width: 400px;
+        height: 350px;
+        background-color: black;
+        position: absolute;
+        top: 280px;
+        margin-left: 300px;
+       opacity: 0.74;
+    }
+    .black-form form{
+       width: 370px;
+        height: 340px;
+        margin-top: 5px;
+        margin-left: 30px;
+        /* border: 1px solid red; */
+    }
+    .black-form label{
+    font-size: 24px;
+    color: white;
+    }
+    .black-form form input{
+        width: 340px;
+        height: 35px;
+        margin-top: 5px;
+        border: 1.5px solid white;
+    }
+    .black-form button{
+        width: 150px;
+        height: 50px;
+        color: white;
+        cursor: pointer;
+        font-size: 15px;
+        margin-left: 150px;
+        background-color: rgb(104, 22, 22);
+    }
+    
+    .black-form1{
+        width: 700px;
+        height: 150px;
+        background-color: black;
+        position: absolute;
+        top: 100px;
+        margin-left: 20px;
+        border-radius: 20px;
+       opacity: 0.74;
+    }
+    .black-form1 h1{
+        margin-top: 10px;
+        text-align: center;
+        color: orangered;
+        font-size: 30px;
+        font-weight: 100;
+        font-family:sans-serif;
+    }
+    .black-form1 p{
+        margin-top: 10px;
+        color: white;
+        font-size: 17px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+@media(max-width:480px){
+    .hedder-img img{
+        width: 100%;
+        height: 100vh;
+        position: relative;
+    }
+    .logo img{
+        position: absolute;
+        top: 10px;
+        margin-left: 10px;
+        width: 100px;
+        height: 70px;
+        opacity: 0.60;
+    }
+    .black-form{
+        width: 400px;
+        height: 350px;
+        background-color: black;
+        position: absolute;
+        top: 280px;
+        margin-left: 30px;
+       opacity: 0.74;
+    }
+    .black-form form{
+       width: 370px;
+        height: 340px;
+        margin-top: 5px;
+        margin-left: 30px;
+        /* border: 1px solid red; */
+    }
+    .black-form label{
+    font-size: 24px;
+    color: white;
+    }
+    .black-form form input{
+        width: 340px;
+        height: 35px;
+        margin-top: 5px;
+        border: 1.5px solid white;
+    }
+    .black-form button{
+        width: 150px;
+        height: 50px;
+        color: white;
+        cursor: pointer;
+        font-size: 15px;
+        margin-left: 150px;
+        background-color: rgb(104, 22, 22);
+    }
+    
+    .black-form1{
+        width: 100%;
+        height: 150px;
+        background-color: black;
+        position: absolute;
+        top: 100px;
+        margin-left: 0px;
+        border-radius: 20px;
+       opacity: 0.74;
+    }
+    .black-form1 h1{
+        margin-top: 10px;
+        text-align: center;
+        color: orangered;
+        font-size: 30px;
+        font-weight: 100;
+        font-family:sans-serif;
+    }
+    .black-form1 p{
+        margin-top: 10px;
+        color: white;
+        font-size: 17px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+.black{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    margin-top: -8px;
+    display: flex;
+}
+.black input{
+    width: 470px;
+    height: 40px;
+    margin-left: 60px;
+    margin-top: 22px;
+    padding-left: 10px;
+    font-size: 20px;
+    border: none;
+    background-color:rgb(172, 172, 172);
+}
+/* .dropdown select{
+    font-size: 20px;
+    height: 40px;
+    margin-top: 22px;
+    margin-left: 30px;
+    cursor: pointer;
+    border: none;
+    background-color:rgb(172, 172, 172);
+} */
+.black button{
+    width: 300px;
+    height: 40px;
+    margin-top: 22px;
+    margin-left: 30px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    font-size: 16px;
+    background-color: rgb(104, 22, 22);
+}
+.black button:hover{
+    background-color: rgb(117, 89, 36);
+}
+@media(max-width:768px){
+    .black{
+        width: 100%;
+        height: 80px;
+        background-color: black;
+        margin-top: -8px;
+        display: flex;
+    }
+    .black input{
+        width: 130px;
+        height: 40px;
+        margin-left: 100px;
+        margin-top: 22px;
+        padding-left: 10px;
+        font-size: 17px;
+        border: none;
+        background-color:rgb(172, 172, 172);
+    }
+    /* .dropdown select{
+        font-size: 12px;
+        height: 40px;
+        width: 150px;
+        margin-top: 22px;
+        margin-left: 30px;
+        cursor: pointer;
+        border: none;
+        background-color:rgb(172, 172, 172);
+    } */
+    .black button{
+        width: 150px;
+        height: 40px;
+        margin-top: 22px;
+        margin-left: 30px;
+        cursor: pointer;
+        border: none;
+        color: white;
+        font-size: 16px;
+        background-color: rgb(104, 22, 22);
+    }
+    .black button:hover{
+        background-color: rgb(117, 89, 36);
+    }
+}
+@media(max-width:480px){
+    .black{
+        width: 100%;
+        height: 80px;
+        background-color: black;
+        margin-top: -8px;
+        display: flex;
+    }
+    .black input{
+        width: 100px;
+        height: 40px;
+        margin-left: 15px;
+        margin-top: 22px;
+        padding-left: 10px;
+        font-size: 17px;
+        border: none;
+        background-color:rgb(172, 172, 172);
+    }
+    /* .dropdown select{
+        font-size: 12px;
+        height: 40px;
+        width: 150px;
+        margin-top: 22px;
+        margin-left: 5px;
+        cursor: pointer;
+        border: none;
+        background-color:rgb(172, 172, 172);
+    } */
+    .black button{
+        width: 120px;
+        height: 40px;
+        margin-top: 22px;
+        margin-left: 10px;
+        cursor: pointer;
+        border: none;
+        color: white;
+        font-size: 16px;
+        background-color: rgb(104, 22, 22);
+    }
+    .black button:hover{
+        background-color: rgb(117, 89, 36);
+    }
+}
+.Discover{
+    width: 100%;
+    height: 260px;
+    margin-top: 50px;
+}
+.Discover h1{
+    text-align: center;
+    font-size: 42px;
+    font-weight: 200;
+    font-family: "Cinzel", serif;
+}
+.Discover p{
+    font-size: 20px;
+    font-weight: 200;
+    font-family: "Cinzel", serif;
+    margin-left: 60px;
+    margin-right: 50px;
+    margin-top: 50px;
+    color: rgb(87, 82, 82);
+}
+@media(max-width:768px){
+    .Discover{
+        width: 100%;
+        height: 260px;
+        margin-top: 50px;
+    }
+    .Discover h1{
+        text-align: center;
+        font-size: 30px;
+        font-weight: 200;
+        font-family: "Cinzel", serif;
+    }
+    .Discover p{
+        font-size: 17px;
+        font-weight: 200;
+        font-family: "Cinzel", serif;
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-top: 30px;
+        color: rgb(87, 82, 82);
+    }
+}
+@media(max-width:480px){
+    .Discover{
+        width: 100%;
+        height: 260px;
+        margin-top: 30px;
+    }
+    .Discover h1{
+        text-align: center;
+        font-size: 25px;
+        font-weight: 200;
+        font-family: "Cinzel", serif;
+    }
+    .Discover p{
+        font-size: 14px;
+        font-weight: 200;
+        font-family: "Cinzel", serif;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 30px;
+        color: rgb(87, 82, 82);
+    }
+}
+.facilities{
+    width: 100%;
+    height: 215vh;
+    margin-top: 30px;
+    background-color: rgb(43, 42, 42);
+}
+.facilities h1{
+    padding-top: 50px;
+    color: white;
+    text-align: center;
+    font-size: 43px;
+    font-weight: 200;
+    font-family: "Cinzel", serif;
+}
+.facilities-cards{
+    display: flex;
+    width: 100%;
+    height: 550px;
+    margin-top: 30px;
+    /* border: 1px solid white; */
+}
+.facilities-cards1{
+    display: flex;
+    width: 100%;
+    height: 550px;
+    margin-top: 30px;
+    /* border: 1px solid white; */
+}
+.facilities-card{
+    width: 390px;
+    height: 530px;
+    margin-left: 30px;
+    background-color: white;
+}
+.facilities-card img{
+    width: 100%;
+    height: 300px;
+}
+.facilities-card h2{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: "Red Hat Text", sans-serif;
+    font-weight: 500;
+}
+.facilities-card p{
+    margin-top: 20px;
+    font-size: 18px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-weight: 500;
+    color: rgb(61, 61, 61);
+}
+.facilities button{
+    width: 200px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+    background-color:rgb(104, 22, 22) ;
+    margin-top: 30px;
+    border: none;
+    margin-left: 580px;
+    cursor: pointer;
+}
+.facilities button:hover{
+     background-color: rgb(117, 89, 36);
+}
+@media(max-width:768px){
+    .facilities{
+        width: 100%;
+        height: 460vh;
+        margin-top: 30px;
+        background-color: rgb(43, 42, 42);
+    }
+    .facilities h1{
+        padding-top: 30px;
+        color: white;
+        text-align: center;
+        font-size: 43px;
+        font-weight: 200;
+        font-family: "Cinzel", serif;
+    }
+    .facilities-cards{
+        flex-direction: column;
+        width: 100%;
+        height: 250vh;
+        margin-top: 30px;
+        /* border: 1px solid white; */
+    }
+    .facilities-cards1{
+        flex-direction: column;
+        width: 100%;
+        height: 170vh;
+        margin-top: 30px;
+        /* border: 1px solid white; */
+    }
+    .facilities-card{
+        width: 490px;
+        height: 480px;
+        margin-left: 130px;
+        margin-top: 50px;
+        background-color: white;
+    }
+    .facilities-card img{
+        width: 100%;
+        height: 300px;
+    }
+    .facilities-card h2{
+        text-align: center;
+        margin-top: 20px;
+        font-size: 20px;
+        font-family: "Red Hat Text", sans-serif;
+        font-weight: 500;
+    }
+    .facilities-card p{
+        margin-top: 20px;
+        font-size: 18px;
+        margin-left: 20px;
+        margin-right: 20px;
+        font-weight: 500;
+        color: rgb(61, 61, 61);
+    }
+    .facilities button{
+        width: 200px;
+        height: 40px;
+        font-size: 15px;
+        font-weight: 500;
+        color: white;
+        background-color:rgb(104, 22, 22) ;
+        margin-top:30px;
+        border: none;
+        margin-left: 280px;
+        cursor: pointer;
+    }
+    .facilities button:hover{
+         background-color: rgb(117, 89, 36);
+    }
+}
+@media(max-width:480px){
+    .facilities{
+        width: 100%;
+        height: 460vh;
+        margin-top: 30px;
+        background-color: rgb(43, 42, 42);
+    }
+    .facilities h1{
+        padding-top: 30px;
+        color: white;
+        text-align: center;
+        font-size: 43px;
+        font-weight: 200;
+        font-family: "Cinzel", serif;
+    }
+    .facilities-cards{
+        flex-direction: column;
+        width: 100%;
+        height: 250vh;
+        margin-top: 10px;
+        /* border: 1px solid white; */
+    }
+    .facilities-cards1{
+        flex-direction: column;
+        width: 100%;
+        height: 170vh;
+        margin-top: 30px;
+        /* border: 1px solid white; */
+    }
+    .facilities-card{
+        width: 390px;
+        height: 580px;
+        margin-left: 40px;
+        margin-top: 50px;
+        background-color: white;
+    }
+    .facilities-card img{
+        width: 100%;
+        height: 250px;
+    }
+    .facilities-card h2{
+        text-align: center;
+        margin-top: 20px;
+        font-size: 20px;
+        font-family: "Red Hat Text", sans-serif;
+        font-weight: 500;
+    }
+    .facilities-card p{
+        margin-top: 20px;
+        font-size: 18px;
+        margin-left: 20px;
+        margin-right: 20px;
+        font-weight: 500;
+        color: rgb(61, 61, 61);
+    }
+    .facilities button{
+        width: 200px;
+        height: 40px;
+        font-size: 15px;
+        font-weight: 500;
+        color: white;
+        background-color:rgb(104, 22, 22) ;
+        margin-top:30px;
+        border: none;
+        margin-left: 130px;
+        cursor: pointer;
+    }
+    .facilities button:hover{
+         background-color: rgb(117, 89, 36);
+    }
+}
+.Vembanad{
+    width: 100%;
+    height: 550px;
+    display: flex;
+    /* border: 1px solid black; */
+}
+.Vembanad-card img{
+    width: 600px;
+    height: 400px;
+    margin-top: 70px;
+    margin-left: 50px;
+}
+.Vembanad-card1 h1{
+    margin-top: 160px;
+    margin-left: 50px;
+    font-weight: 200;
+    font-family: "Cinzel", serif;
+}
+.Vembanad-card1 p{
+    margin-top: 20px;
+    font-size: 20px;
+    margin-right: 40px;
+    margin-left: 50px;
+    font-weight: 200;
+    font-family: "Cinzel", serif;
+}
+@media(max-width:768px){
+    .Vembanad{
+        width: 100%;
+        height: 120vh;
+        flex-direction: column;
+        /* border: 1px solid black; */
+    }
+    .Vembanad-card img{
+        width: 600px;
+        height: 400px;
+        margin-top: 70px;
+        margin-left: 70px;
+    }
+    .Vembanad-card1 h1{
+        margin-top: 60px;
+        margin-left: 50px;
+        font-weight: 200;
+        font-family: "Cinzel", serif;
+    }
+    .Vembanad-card1 p{
+        margin-top: 20px;
+        font-size: 20px;
+        margin-right: 40px;
+        margin-left: 50px;
+        font-weight: 200;
+        font-family: "Cinzel", serif;
+    }
+}
+@media(max-width:480px){
+    .Vembanad{
+        width: 100%;
+        height: 90vh;
+        flex-direction: column;
+        /* border: 1px solid black; */
+    }
+    .Vembanad-card img{
+        width: 400px;
+        height: 300px;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    .Vembanad-card1 h1{
+        margin-top: 30px;
+        margin-left: 20px;
+        font-weight: 200;
+        font-family: "Cinzel", serif;
+    }
+    .Vembanad-card1 p{
+        margin-top: 10px;
+        font-size: 16px;
+        margin-right: 40px;
+        margin-left: 20px;
+        font-weight: 200;
+        font-family: "Cinzel", serif;
+    }
+}
+.cards{
+    width: 100%;
+    height: 190vh;
+    background-color: rgb(43, 43, 43);
+}
+.cards h1{
+    text-align: center;
+    padding-top: 50px;
+    font-weight: 400;
+    color: white;
+    font-size: 33px;
+    font-family: "Cinzel", serif;
+}
+.cards h3{
+    text-align: center;
+    padding-top: 30px;
+    font-weight: 400;
+    color: rgb(196, 196, 196);
+    font-size: 20px;
+    font-family: "Cinzel", serif;
+}
+.cards1{
+    width: 87%;
+    height: 160vh;
+    margin-top: 30px;
+    margin-left: 70px;
+    display: flex;
+    /* border: 1px solid white; */
+}
+.card12{
+    width: 260px;
+    height: 155vh;
+    margin-left: 30px;
+    /* border: 1px solid red; */
+}
+.card12 img{
+    width: 100%;
+    height: 220px;
+    margin-top: 20px;
+}
+@media(max-width:768px){
+    .cards{
+        width: 100%;
+        height: 164vh;
+        background-color: rgb(43, 43, 43);
+    }
+    .cards h1{
+        text-align: center;
+        padding-top: 50px;
+        font-weight: 400;
+        color: white;
+        font-size: 27px;
+        font-family: "Cinzel", serif;
+    }
+    .cards h3{
+        text-align: center;
+        padding-top: 30px;
+        font-weight: 400;
+        color: rgb(196, 196, 196);
+        font-size: 18px;
+        font-family: "Cinzel", serif;
+    }
+    .cards1{
+        width: 100%;
+        height: 133vh;
+        margin-top: 30px;
+        margin-left: 0px;
+        display: flex;
+        /* border: 1px solid white; */
+    }
+    .card12{
+        width: 200px;
+        height: 130vh;
+        margin-left: 4px;
+        /* border: 1px solid red; */
+    }
+    .card12 img{
+        width: 100%;
+        height: 180px;
+        margin-top: 20px;
+    }
+}
+@media(max-width:480px){
+    .cards{
+        width: 100%;
+        height: 743vh;
+        background-color: rgb(43, 43, 43);
+    }
+    .cards h1{
+        text-align: center;
+        padding-top: 30px;
+        font-weight: 400;
+        color: white;
+        font-size: 17px;
+        font-family: "Cinzel", serif;
+    }
+    .cards h3{
+        text-align: center;
+        padding-top: 20px;
+        font-weight: 400;
+        color: rgb(196, 196, 196);
+        font-size: 14px;
+        font-family: "Cinzel", serif;
+    }
+    .cards1{
+        width: 80%;
+        height: 560vh;
+        margin-top: 20px;
+        margin-left: 50px;
+        flex-direction: column;
+        /* border: 1px solid white; */
+    }
+    .card12{
+        width: 366px;
+        height: 180vh;
+        margin-left: 0px;
+        /* border: 1px solid red; */
+    }
+    .card12 img{
+        width: 100%;
+        height: 260px;
+        margin-top: 20px;
+    }
+}
+.banar {
+    width: 100%;
+    height: 120vh;
+    background-image: url("https://www.weddingsutra.com/images/Vendor_Images/Venues/the-parul-banglore/the-parul-banglore-02.jpg");
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    position: absolute;
+    
+}
+.banar1{
+    width: 80%;
+    height: 450px;
+    background-color: black;
+    margin-top: 90px;
+    margin-left: 130px;
+    opacity: 0.60;
+    display: flex;
+    position: relative;
+    
+}
+.banar1-text{
+    width: 45%;
+    height: 370px;
+    margin-left: 40px;
+    margin-top: 50px;
+    /* border: 1px solid white; */
+}
+.banar1-text h1{
+    font-size: 40px;
+    color: #ffffff;;
+    font-weight: 300;
+    text-align: center;
+    font-family: "Cinzel", serif;
+}
+.banar1-text h5{
+    font-size: 20px;
+    color: #ffffff;;
+    font-weight: 300;
+    margin-top: 30px;
+    text-align: center;
+    font-family: "Cinzel", serif;
+}
+.banar1-form{
+    width: 45%;
+    height: 370px;
+    margin-top: 50px;
+    /* border: 1px solid white; */
+}
+.banar1-form form{
+   width: 440px;
+    height: 340px;
+    margin-top: 30px;
+    margin-left: 30px;
+    /* border: 1px solid red; */
+}
+.banar1-form label{
+font-size: 24px;
+color: white;
+}
+.banar1-form form input{
+    width: 430px;
+    height: 35px;
+    margin-top: 5px;
+    border: 1.5px solid white;
+}
+.banar1-form button{
+    width: 150px;
+    height: 50px;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    background-color: rgb(121, 24, 24);
+}
+.end{
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    position: absolute;
+    top: 700px;
+}
+.end h2{
+    text-align: center;
+    color: #ffffff;
+    font-size: 20px;
+    margin-top: 18px;
+    font-weight: 200;
+}
+@media(max-width:768px){
+    .banar {
+        width: 100%;
+        height: 120vh;
+        background-image: url("https://www.weddingsutra.com/images/Vendor_Images/Venues/the-parul-banglore/the-parul-banglore-02.jpg");
+        background-attachment: fixed;
+        background-size: 100% 100%;
+        position: absolute;
+        
+    }
+    .banar1{
+        width: 93%;
+        height: 500px;
+        background-color: black;
+        margin-top: 50px;
+        margin-left: 20px;
+        opacity: 0.60;
+        flex-direction: column;
+        position: relative;
+        
+    }
+    .banar1-text{
+        width: 90%;
+        height: 100px;
+        margin-left: 20px;
+        margin-top: 20px;
+        /* border: 1px solid white; */
+    }
+    .banar1-text h1{
+        font-size: 30px;
+        color: #ffffff;;
+        font-weight: 300;
+        text-align: center;
+        font-family: "Cinzel", serif;
+    }
+    .banar1-text h5{
+        font-size: 20px;
+        color: #ffffff;;
+        font-weight: 300;
+        margin-top: 20px;
+        text-align: center;
+        font-family: "Cinzel", serif;
+    }
+    .banar1-form{
+        width: 100%;
+        height: 400px;
+        margin-top: 0px;
+        /* border: 1px solid white; */
+    }
+    .banar1-form form{
+       width: 340px;
+        height: 350px;
+        margin-top: 0px;
+        margin-left: 150px;
+        /* border: 1px solid red; */
+    }
+    .banar1-form label{
+    font-size: 24px;
+    color: white;
+    }
+    .banar1-form form input{
+        width: 300px;
+        height: 35px;
+        margin-top: 5px;
+        border: 1.5px solid white;
+    }
+    .banar1-form button{
+        width: 150px;
+        height: 50px;
+        color: white;
+        cursor: pointer;
+        font-size: 15px;
+        background-color: rgb(104, 22, 22);
+    }
+    .end{
+        width: 100%;
+        height: 60px;
+        background-color: black;
+        position: absolute;
+        top: 700px;
+    }
+    .end h2{
+        text-align: center;
+        color: #ffffff;
+        font-size: 20px;
+        margin-top: 18px;
+        font-weight: 200;
+    }
+}
+@media(max-width:480px){
+    .banar {
+        width: 100%;
+        height: 120vh;
+        background-image: url("https://www.weddingsutra.com/images/Vendor_Images/Venues/the-parul-banglore/the-parul-banglore-02.jpg");
+        background-attachment: fixed;
+        background-size: 100% 100%;
+        position: absolute;
+        
+    }
+    .banar1{
+        width: 93%;
+        height: 500px;
+        background-color: black;
+        margin-top: 50px;
+        margin-left: 20px;
+        opacity: 0.60;
+        flex-direction: column;
+        position: relative;
+        
+    }
+    .banar1-text{
+        width: 90%;
+        height: 130px;
+        margin-left: 20px;
+        margin-top: 20px;
+        /* border: 1px solid white; */
+    }
+    .banar1-text h1{
+        font-size: 30px;
+        color: #ffffff;;
+        font-weight: 300;
+        text-align: center;
+        font-family: "Cinzel", serif;
+    }
+    .banar1-text h5{
+        font-size: 20px;
+        color: #ffffff;;
+        font-weight: 300;
+        margin-top: 20px;
+        text-align: center;
+        font-family: "Cinzel", serif;
+    }
+    .banar1-form{
+        width: 100%;
+        height: 400px;
+        margin-top: 10px;
+        /* border: 1px solid white; */
+    }
+    .banar1-form form{
+       width: 340px;
+        height: 350px;
+        margin-top: 0px;
+        margin-left: 50px;
+        /* border: 1px solid red; */
+    }
+    .banar1-form label{
+    font-size: 24px;
+    color: white;
+    }
+    .banar1-form form input{
+        width: 300px;
+        height: 35px;
+        margin-top: 5px;
+        border: 1.5px solid white;
+    }
+    .banar1-form button{
+        width: 150px;
+        height: 50px;
+        color: white;
+        cursor: pointer;
+        font-size: 15px;
+        background-color: rgb(104, 22, 22);
+    }
+    .end{
+        width: 100%;
+        height: 60px;
+        background-color: black;
+        position: absolute;
+        top: 700px;
+    }
+    .end h2{
+        text-align: center;
+        color: #ffffff;
+        font-size: 20px;
+        margin-top: 18px;
+        font-weight: 200;
+    }
+}
